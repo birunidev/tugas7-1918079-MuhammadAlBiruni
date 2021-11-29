@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Welcome To The Travel App" />
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/main"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create"
+        android:onClick="create"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="read"
+        android:onClick="read"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
